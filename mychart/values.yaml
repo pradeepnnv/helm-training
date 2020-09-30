@@ -2,3 +2,8 @@
 favourite:
   drink: coffee
   food: biryani
+pizzaToppings:
+  - mushrooms
+  - cheese
+  - peppers
+  - onions
