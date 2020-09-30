@@ -1,9 +1,4 @@
 ---
-{{- define "mychart.labels" }}
-  labels:
-    generator: helm
-    date: {{ now | htmlDate }}
-{{- end }}
 apiVersion: v1
 kind: ConfigMap
 metadata:
