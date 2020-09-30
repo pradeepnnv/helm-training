@@ -1,1 +1,4 @@
-favouriteDrink: coffee
+---
+favourite:
+  drink: mango juice
+  food: biryani
