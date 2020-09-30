@@ -11,4 +11,5 @@ data:
   {{- if eq .drink "coffee" }}
   mug: true
   {{- end }}
+  release: {{ $.Release.Name }}
   {{- end}}
