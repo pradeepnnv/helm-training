@@ -5,10 +5,10 @@ Generate basic labels
   labels:
     generator: helm
     date: {{ now | htmlDate }}
-    chart: {{ .Chart.Name }}
-    version: {{ .Chart.Version }}
 {{- end }}
-
+{{/*
+App values
+*/}}
 {{- define "mychart.app" }}
 app_name: {{ .Chart.Name }}
 app_version: {{ .Chart.Version }}
