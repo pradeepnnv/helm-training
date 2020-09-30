@@ -25,4 +25,5 @@ data:
   {{- range tuple "config1.toml" "config2.toml" "config3.toml" }}
   {{ . }}: |-
     {{ $files.Get .}}
-  {{- end}}  
+  {{- end}}
+  salad: {{ .Values.global.salad }}

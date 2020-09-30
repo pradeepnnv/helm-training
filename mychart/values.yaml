@@ -9,3 +9,6 @@ pizzaToppings:
   - onions
 mysubchart:
   dessert: ice cream
+
+global:
+  salad: ceaser
